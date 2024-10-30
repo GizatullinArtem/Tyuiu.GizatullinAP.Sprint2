@@ -8,7 +8,7 @@ namespace Tyuiu.GizatullinAP.Sprint2.Task3.V20.Lib
             double y = 0;
             if (x > 0)
             {
-                y = x * Math.Pow(x + 1 / x - 1, x);
+                y = x * Math.Pow((x + 1) / (x - 1), x);
             }
             else
             {
