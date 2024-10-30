@@ -5,8 +5,8 @@ namespace Tyuiu.GizatullinAP.Sprint2.Task7.V9.Lib
     {
         public bool CheckDotInShadedArea(double x, double y)
         {
-            if ((0.5 >= Math.Sin(x)) && x > 0 && y > 0)
-            {
+            if ((Math.Sin(x) > 0) && (y > 0) && (y < 0.5))
+                {
                 return true;
             }
 
